@@ -1,4 +1,5 @@
 
+
  import java.util.Random;
 
 public class Beast {
@@ -13,14 +14,14 @@ public class Beast {
     }
 
     // Lista de bestas disponíveis
-    static Beast[] lista = {
-        new Beast("Lobo", 60, 200, 0),
-        new Beast("Urso", 80, 150, 0),
-        new Beast("Veado", 30, 250, 0),
-        new Beast("Coelho", 10, 300, 0),
-        new Beast("Puma", 70, 220, 0),
-        new Beast("Tigre", 90, 180, 0),
-        new Beast("Cervo", 40, 240, 0),
+   static Beast[] lista = {
+            new Beast("Lobo", 6, 10),
+            new Beast("Urso", 8, 5),
+            new Beast("Veado", 3, 2),
+            new Beast("Coelho", 1, 5),
+            new Beast("Puma", 7, 8),
+            new Beast("Tigre", 9, 10),
+            new Beast("Cervo", 2, 5)
     };
 
     public String getNome() {
